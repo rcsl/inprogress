@@ -13,9 +13,9 @@ app.get('/', function (req, res) {
 
     var image = getRandomFileName();
     // render the 'index' template, and pass in a few variables
-    res.render('index', { title: 'Freinds of Sonning Common Library',
-     message: 'Welcome to our new home online',
-     subhead: 'Sorry it is a bit of a mess right now. We are hard at work so come back in a few days and see how we are getting on.',
+    res.render('index', { title: 'Friends of Sonning Common Library',
+     message: 'This is where you will find our new online home',
+     subhead: 'Sorry it is a bit of a mess right now. We are hard at work but come back in a few days and see how we are getting on.',
      image : image,
      logo: 'FoSCLlogo.png' });
 
